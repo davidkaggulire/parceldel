@@ -1,7 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+api/__pycache__/
+api/v1/__pycache__/
+api/v1/models/__pycache__/  
+api/v1/views/__pycache__/
 *.py[cod]
 *$py.class
+.vscode/
+run.pyc
 
 # C extensions
 *.so
