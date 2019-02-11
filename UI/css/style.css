@@ -1,0 +1,166 @@
+:root{
+    --blue: #37E2F6;
+    --pink: #EADEF4;
+    --green: #1BA767;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: var(--pink); */
+    font-size: 16px;
+    font-family: 'Inconsolata', monospace;
+    background-image: url("../images/blues.jpg");
+    background-size:cover;
+    margin: 0 auto;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.nav-bar ul li{
+    list-style-type: none;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.nav-bar{
+    background-color: #e1e5eb;
+    padding: 5px;
+    height: 70px;
+}
+
+.form-field-login{
+    float: left;
+    margin-left: 30%;
+    margin-right: 5px;
+    padding: 20px;
+    background-color:white;
+    border: 1px var(--blue) solid;
+    border-radius: 2px;
+    width: 30%;
+    height: 400px;
+    margin-top: 90px;
+    text-align: left;
+}
+
+.form-field-sign{
+    float: left;
+    margin-left: 30%;
+    margin-right: 5px;
+    padding: 20px;
+    background-color:white;
+    border: 1px var(--blue) solid;
+    border-radius: 2px;
+    width: 30%;
+    height: 550px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+.login-input {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    font-family: 'Inconsolata', monospace;
+    outline: none;
+    border-color: var(--blue);
+    border-width: 0.8px;
+    width: 90%;
+    padding:5px;
+    margin: 4px 0;
+    display: inline-block;
+}
+
+.login-input:focus{
+    border-color: var(--green);
+}
+
+.label-title{
+    color: var(--green);
+}
+
+.drop-down {
+    border:0;
+    font-family: 'Inconsolata', monospace;
+    outline: none;
+    border-width: 0.8px;
+    width: 90%;
+    padding:5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.parcel-down {
+    border:0;
+    font-family: 'Inconsolata', monospace;
+    outline: none;
+    padding:5px;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.avatar{
+    margin-left: 35%;
+    /* width: 85%; */
+    /* height: 50%; */
+}
+
+.form-field a{
+    text-decoration: none;
+    color:var(--blue);
+}
+
+.btn-submit{
+    /* outline: none; */
+    width: 93%;
+    padding: 12px 8px;
+    margin: 8px 0;
+    background-color: #3BB1CD;
+    border:1px solid#3BB1CD;
+}
+
+.btn-submit:hover{
+    cursor: pointer;
+    outline: none;
+    background-color: var(--blue);
+    transition: background 0.8s;
+}
+
+.parcel-form{
+    margin-bottom: 10px;
+}
+
+table, td, th, tr{
+    border: 1px #093374 solid;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+}
+
+.parcels{
+    margin-top: 50px;
+    padding: 20px;
+    margin-left:20%;
+    background-color:white;
+    width: 50%;
+    font-family: 'Inconsolata', monospace;
+}
+
+.map{
+    margin:10px;
+    margin-left: 15%;
+}
+
+.logout{
+    text-decoration: none;
+    color:white;
+    padding: 5px;
+    background-color: #093374;
+    border-radius: 0.5px;
+    border: 1px #093374 solid;
+}
