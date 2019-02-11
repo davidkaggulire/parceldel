@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="shortcut icon" type="image/png" href="../images/favicon-96x96.png">
+    <title>Parcel status</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <ul class="flex-bar">
+            <li style="float: left; font-size: 28px;"><img src="../images/favicon-32x32.png">CODEX</li>
+            <li style="float: right; font-size: 20px;"><a href="signup.html" class="logout">Logout</a></li>
+        </ul>
+    </div>
+    <div class="parcels">
+        <div style="text-align:center">STATUS</div><br>
+        <table>
+            <tr>
+                <th>Parcel name</th>
+                <th>Quantity</th>
+                <th>Price($)</th>
+                <th>Status</th>
+                <th>Destination</th>
+            </tr>
+            <tr>
+                <td>Biscuits</td>
+                <td>2</td>
+                <td>4.00</td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="transit">Transit</option>
+                        <option value="delivered">Delivered</option>
+                        <option value="cancelled">Cancelled</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="kikoni">Kikoni</option>
+                        <option value="kyebando">Kyebando</option>
+                        <option value="mulago">Mulago</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cornflakes</td>
+                <td>2</td>
+                <td>8.00</td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="transit">Transit</option>
+                        <option value="delivered">delivered</option>
+                        <option value="cancelled">Cancelled</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="kikoni">Kikoni</option>
+                        <option value="kyebando">Kyebando</option>
+                        <option value="mulago">Mulago</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>2</td>
+                <td>6.00</td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="transit">Transit</option>
+                        <option value="delivered">delivered</option>
+                        <option value="cancelled">Cancelled</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="parcel-down">
+                        <option value="kikoni">Kikoni</option>
+                        <option value="kyebando">Kyebando</option>
+                        <option value="mulago">Mulago</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
