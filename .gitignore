@@ -8,7 +8,7 @@ api/v1/views/__pycache__/
 *$py.class
 .vscode/
 run.pyc
-
+.env
 # C extensions
 *.so
 
