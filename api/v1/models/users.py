@@ -2,18 +2,18 @@
 
 
 class Users:
+    """class to describe users"""
     user_list = []
 
-    def __init__(self, user_id, name, username, email, password):
+    def __init__(self, user_id, username, email, password):
         self.user_id = user_id
-        self.name = name
         self.username = username
         self.email = email
         self.password = password
 
     def to_dict(self):
+        """returns user_dict"""
         user_dict = {
-            "name": self.name,
             "username": self.username,
             "email": self.email,
             "password": self.password
