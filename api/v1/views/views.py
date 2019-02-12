@@ -4,13 +4,13 @@ from flask import jsonify, request
 from api.v1 import app
 from api.v1.models.parcels import Parcels
 
-parcel = Parcels(1,"juice", 1, 40, 1000)
+parcel = Parcels(1, "juice", 1, 40, 1000)
 
 
 @app.route('/')
 def home():
     """returns home welcome message"""
-    return jsonify({"message": 'CODEX connecting you'})
+    return jsonify({"message": 'parceldel connecting you'})
 
 
 @app.route('/parcels', methods=['POST'])
