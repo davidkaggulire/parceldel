@@ -2,6 +2,7 @@
 
 
 class Orders:
+    """class to describe orders"""
     def __init__(self, order_id, parcel_id, user_id, order_count):
         self.order_id = order_id
         self.parcel_id = parcel_id
@@ -9,6 +10,7 @@ class Orders:
         self.order_count = order_count
 
     def to_dict(self):
+        """returns order_dictionary"""
         order_dict = {
             "order_id": self.order_id,
             "parcel_id": self.parcel_id,
