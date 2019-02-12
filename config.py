@@ -13,6 +13,6 @@ class DevelopmentConfig(Config):
     DEBUG = False
 
 app_config = {
-    "testing_config": TestingConfig,
-    "development_config": DevelopmentConfig
+    "testing": TestingConfig,
+    "development": DevelopmentConfig
 }
